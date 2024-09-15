@@ -8,6 +8,7 @@ To compile and use the code an installation of the Cython and Numpy python modul
 Two examples (example1.py and example2.py) shows how to use the code.
 
 # References
-```
-Paz-Martín, J., Schüller, A., Bourgouin, A., González-Castaño, D. M., Gómez-Fernández, N., Pardo-Montero, J., & Gómez, F. (2022). Numerical modeling of air-vented parallel plate ionization chambers for ultra-high dose rate applications. Physica medica, 103, 147–156. https://doi.org/10.1016/j.ejmp.2022.10.006
-```
+Paz-Martín, J., Schüller, A., Bourgouin, A., González-Castaño, D. M.,
+Gómez-Fernández, N., Pardo-Montero, J., & Gómez, F. (2022). Numerical modeling
+of air-vented parallel plate ionization chambers for ultra-high dose rate
+applications. Physica medica, 103, 147–156. https://doi.org/10.1016/j.ejmp.2022.10.006
