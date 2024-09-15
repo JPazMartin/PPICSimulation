@@ -1,5 +1,5 @@
 # PPICSimulation
-Code for the simulation of the charge collection efficiency of parallel-plate ionization chambers. The code is written as a Cython extension that may be compiled as following:
+Code for the simulation of the charge collection efficiency of parallel-plate ionization chambers. The code is written as a module using Cython and may be compiled as following:
 ```
 source setup.sh
 ```
