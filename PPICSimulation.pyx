@@ -191,6 +191,10 @@ def pulsedSimulation(double dosepp, double pulseDuration, double alpha,
             
             idxBin = int((eField[i] - eFieldBin[0]) / stepE + 0.5)
 
+            if idxBin >= nBin:
+                print("Error: Electric field is higher than the provided from tables.")
+                return 0, 0, 0, 0, np.array([0, 0, 0, 0])
+            
             ## Electron attachment from Boissonnat et al. (arXiv:1609.03740v1)
             eAttachment[i] = 95.24E-9 * (1 - exp(-eField[i] / 258.5E3))
             eVelocity[i]   = eVelocityBin[idxBin]
